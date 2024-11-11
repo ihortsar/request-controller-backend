@@ -2,6 +2,8 @@ Every 6 hours the project analyzes the IATA requests from last 24 hours. The res
 
 Email settings in SendMail.php (specified as comments).
 
+Database settings in models/Database.php
+
 Cron Job to run the IATA analysis every 6 hours and to clear rows older then 1 year:
     Run crontab -e;
     Then:
